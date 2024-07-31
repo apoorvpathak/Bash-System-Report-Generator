@@ -1,0 +1,32 @@
+System Health Dashboard
+=====================
+
+CPU:
+<CPU_LOAD_PLACEHOLDER>
+
+Memory Usage:
+Total: 7.1Gi, Used: 4.7Gi, Free: 399Mi
+
+Disk Space Usage:
+total           274G   28G  233G  11% -
+
+Network Activity:
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    RX:  bytes packets errors dropped  missed   mcast           
+      20259057   38673      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+      20259057   38673      0       0       0       0 
+2: eno1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN mode DEFAULT group default qlen 1000
+    link/ether XX:XX:XX:XX:XX:XX brd ff:ff:ff:ff:ff:ff
+    RX:  bytes packets errors dropped  missed   mcast           
+             0       0      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+             0       0      0       0       0       0 
+    altname enp3s0
+3: wlp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DORMANT group default qlen 1000
+    link/ether YY:YY:YY:YY:YY:YY brd ff:ff:ff:ff:ff:ff
+    RX:  bytes packets errors dropped  missed   mcast           
+     929486464  846040      0     404       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+      88504287  258343      0       0       0       0 
